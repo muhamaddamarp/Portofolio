@@ -379,12 +379,12 @@ from kfp import dsl
 def continuous_training_pipeline(dataset_uri: str, drift_score: float):
     ingest_op = dsl.ContainerOp(
         name="Data-Ingestion",
-        image="aditya/mlops-ingest:v2.4",
+        image="damar/mlops-ingest:v2.4",
         arguments=["--uri", dataset_uri]
     )
     train_op = dsl.ContainerOp(
         name="PyTorch-Distributed-Train",
-        image="aditya/pytorch-ddp:latest",
+        image="damar/pytorch-ddp:latest",
         arguments=["--batch-size", "256", "--epochs", "50"]
     ).after(ingest_op)`
   }
