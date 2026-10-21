@@ -96,7 +96,8 @@
           <p class="hero-subtitle">
             Halo! Saya <strong>M Damar Pangestu</strong>. Saya Mahasiswa program studi
             <strong>Kecerdasan Buatan & Robotika</strong>. Saat ini sedang membangun fondasi di <strong>Python</strong>,
-            <strong>Matematika</strong>, dan <strong>MLOps</strong>. Serta mendokumentasikan prosesnya disini.
+            <strong>HTML/CSS/JS</strong>, dan <strong>Machine Learning</strong>. Serta mendokumentasikan prosesnya
+            disini.
           </p>
 
           <div class="hero-cta-group">
@@ -147,7 +148,7 @@
             </div>
             <div class="stat-card">
               <span class="stat-value">1</span>
-              <span class="stat-label">Proyek Dikerjakan</span>
+              <span class="stat-label">Project Dikerjakan</span>
             </div>
             <div class="stat-card">
               <span class="stat-value">0</span>
@@ -170,8 +171,8 @@
               <p class="profile-role">Aspiring Machine Learning & AI Systems Engineer</p>
               <div class="profile-tags">
                 <span class="p-tag">Python</span>
-                <span class="p-tag">MLOps</span>
                 <span class="p-tag">HTML/CSS/JS</span>
+                <span class="p-tag">Machine Learning</span>
               </div>
             </div>
             <div class="profile-card-footer">
@@ -316,233 +317,29 @@
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
-              <span>Featured Engineering</span>
+              <span>Portofolio</span>
             </div>
-            <h2 class="section-title">Production Machine Learning Projects</h2>
+            <h2 class="section-title">Production Projects</h2>
             <p class="section-desc">
-              Sistem AI end-to-end yang diuji dengan metrik nyata, kode terstruktur, dan performa tinggi di lingkungan
-              produksi.
+              Project yang sedang dan akan saya kerjakan selama belajar, dilengkapi dokumentasi dan kode sumber.
             </p>
-          </div>
-
-          <!-- Project Filter Tabs -->
-          <div class="filter-tabs" id="project-filters">
-            <button class="filter-btn active" data-filter="all">All Projects</button>
-            <button class="filter-btn" data-filter="llm">LLMs & RAG</button>
-            <button class="filter-btn" data-filter="vision">Computer Vision</button>
-            <button class="filter-btn" data-filter="mlops">MLOps & Systems</button>
           </div>
         </div>
 
         <!-- Project Cards Grid -->
         <div class="projects-grid" id="projects-grid">
-
-          <!-- Project 1: MindWeave Enterprise RAG -->
-          <article class="project-card" data-category="llm" id="project-card-rag">
-            <div class="project-media">
-              <img src="assets/images/rag-platform.jpg" alt="MindWeave Enterprise RAG & LLM Agent Platform"
-                class="project-img" loading="lazy">
-              <div class="project-badges">
-                <span class="badge badge-accent">LLMs & Agents</span>
-                <span class="badge badge-live">Production Ready</span>
-              </div>
-            </div>
+          <article class="project-card" data-category="all" id="project-card-first">
             <div class="project-content">
-              <div class="project-metrics-row">
-                <div class="metric-pill" title="Inference Latency">
-                  <span class="metric-dot dot-green"></span>
-                  <span>14ms Latency</span>
-                </div>
-                <div class="metric-pill" title="Streaming Speed">
-                  <span>⚡ 1,280 tok/s</span>
-                </div>
-                <div class="metric-pill" title="Factuality Benchmark">
-                  <span>🎯 98.7% Accuracy</span>
-                </div>
-              </div>
-
-              <h3 class="project-title">MindWeave — Autonomous RAG & Vector Knowledge Graph</h3>
+              <h3 class="project-title">Project Pertama (Segera Hadir)</h3>
               <p class="project-summary">
-                Platform retrieval-augmented generation multi-agen untuk enterprise. Menggabungkan pencarian dense
-                vector (Pinecone)
-                dan sparse keyword (BM25) dengan reranking otomatis untuk mereduksi halusinasi hingga 92% pada 500k+
-                dokumen teknis.
+                Project machine learning atau robotika pertama sedang dalam perencanaan.
+                Perkembangannya akan didokumentasikan di sini dan di GitHub.
               </p>
-
               <div class="project-tech-stack">
-                <span class="tech-tag">Llama-3</span>
-                <span class="tech-tag">LangChain</span>
-                <span class="tech-tag">Pinecone</span>
-                <span class="tech-tag">FastAPI</span>
-                <span class="tech-tag">Docker</span>
-                <span class="tech-tag">vLLM</span>
-              </div>
-
-              <div class="project-actions">
-                <button class="btn btn-sm btn-outline btn-arch" data-project="rag">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                    <line x1="3" y1="9" x2="21" y2="9"></line>
-                    <line x1="9" y1="21" x2="9" y2="9"></line>
-                  </svg>
-                  <span>Architecture Deep Dive</span>
-                </button>
-                <a href="#playground" class="btn btn-sm btn-ghost">
-                  <span>Interactive Demo</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                    <polyline points="15 3 21 3 21 9"></polyline>
-                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon"
-                  title="View Source on GitHub">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 2: AuraMed Vision AI -->
-          <article class="project-card" data-category="vision" id="project-card-vision">
-            <div class="project-media">
-              <img src="assets/images/vision-model.jpg" alt="AuraMed Real-Time Vision & Segmentation AI"
-                class="project-img" loading="lazy">
-              <div class="project-badges">
-                <span class="badge badge-accent">Computer Vision</span>
-                <span class="badge badge-live">Edge Deployed</span>
-              </div>
-            </div>
-            <div class="project-content">
-              <div class="project-metrics-row">
-                <div class="metric-pill" title="Model Precision">
-                  <span class="metric-dot dot-green"></span>
-                  <span>99.4% Precision</span>
-                </div>
-                <div class="metric-pill" title="Inference Frame Rate">
-                  <span>⚡ 60 FPS Real-time</span>
-                </div>
-                <div class="metric-pill" title="Segmentation Dice Score">
-                  <span>🎯 0.988 Dice Score</span>
-                </div>
-              </div>
-
-              <h3 class="project-title">AuraMed — Real-Time Thoracic Lesion Diagnostic AI</h3>
-              <p class="project-summary">
-                Sistem computer vision berkecepatan 60 FPS untuk segmentasi lesi pada CT Scan dada secara real-time.
-                Dioptimasi menggunakan TensorRT FP16 quantization untuk eksekusi langsung di perangkat edge klinis
-                berkapasitas rendah.
-              </p>
-
-              <div class="project-tech-stack">
-                <span class="tech-tag">PyTorch</span>
-                <span class="tech-tag">YOLOv10</span>
-                <span class="tech-tag">TensorRT</span>
-                <span class="tech-tag">CUDA</span>
-                <span class="tech-tag">OpenCV</span>
-                <span class="tech-tag">ONNX</span>
-              </div>
-
-              <div class="project-actions">
-                <button class="btn btn-sm btn-outline btn-arch" data-project="vision">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                    <line x1="3" y1="9" x2="21" y2="9"></line>
-                    <line x1="9" y1="21" x2="9" y2="9"></line>
-                  </svg>
-                  <span>Architecture Deep Dive</span>
-                </button>
-                <a href="#playground" class="btn btn-sm btn-ghost">
-                  <span>Benchmark Report</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                    <polyline points="15 3 21 3 21 9"></polyline>
-                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon"
-                  title="View Source on GitHub">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 3: AutoFlow MLOps Pipeline -->
-          <article class="project-card" data-category="mlops" id="project-card-mlops">
-            <div class="project-media">
-              <img src="assets/images/mlops-pipeline.jpg" alt="AutoFlow Continuous MLOps and Model Monitoring Engine"
-                class="project-img" loading="lazy">
-              <div class="project-badges">
-                <span class="badge badge-accent">MLOps & Cloud</span>
-                <span class="badge badge-live">99.98% Uptime</span>
-              </div>
-            </div>
-            <div class="project-content">
-              <div class="project-metrics-row">
-                <div class="metric-pill" title="End-to-end Latency">
-                  <span class="metric-dot dot-green"></span>
-                  <span>12.5ms Avg</span>
-                </div>
-                <div class="metric-pill" title="Monitoring">
-                  <span>📊 Automated Drift Retrain</span>
-                </div>
-                <div class="metric-pill" title="Traffic Throughput">
-                  <span>🚀 1.2M Inferences/day</span>
-                </div>
-              </div>
-
-              <h3 class="project-title">AutoFlow — Autonomous Continuous Training & Drift Guard</h3>
-              <p class="project-summary">
-                Pipeline CI/CD Machine Learning terdistribusi di atas Kubernetes. Mendeteksi pergeseran konsep data
-                (data drift)
-                secara otomatis dengan Kolmogorov-Smirnov test dan mentrigger retrain tanpa downtime sistem via canary
-                deployment.
-              </p>
-
-              <div class="project-tech-stack">
-                <span class="tech-tag">Kubeflow</span>
-                <span class="tech-tag">MLflow</span>
-                <span class="tech-tag">Kubernetes</span>
-                <span class="tech-tag">Triton Server</span>
-                <span class="tech-tag">Prometheus</span>
                 <span class="tech-tag">Python</span>
               </div>
-
-              <div class="project-actions">
-                <button class="btn btn-sm btn-outline btn-arch" data-project="mlops">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                    <line x1="3" y1="9" x2="21" y2="9"></line>
-                    <line x1="9" y1="21" x2="9" y2="9"></line>
-                  </svg>
-                  <span>Architecture Deep Dive</span>
-                </button>
-                <a href="#playground" class="btn btn-sm btn-ghost">
-                  <span>Pipeline Metrics</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                    <polyline points="15 3 21 3 21 9"></polyline>
-                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                  </svg>
-                </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon"
-                  title="View Source on GitHub">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
-                  </svg>
-                </a>
-              </div>
             </div>
           </article>
-
         </div>
       </div>
     </section>
@@ -566,75 +363,45 @@
         </div>
 
         <div class="skills-grid">
-          <!-- Deep Learning & Frameworks -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">💻</div>
+              <h3 class="category-title">Pemrograman</h3>
+            </div>
+            <p class="category-desc">Core languages and programming paradigms used to build scalable systems, write
+              clean code, and solve computational problems.</p>
+            <div class="tech-pill-list">
+              <span class="tech-pill"><span class="dot-brand"></span>Python</span>
+              <span class="tech-pill"><span class="dot-brand"></span>HTML</span>
+              <span class="tech-pill"><span class="dot-brand"></span>CSS</span>
+              <span class="tech-pill"><span class="dot-brand"></span>JavaScript</span>
+            </div>
+          </div>
+
           <div class="skill-category-card">
             <div class="category-header">
               <div class="category-icon-box">🧠</div>
-              <h3 class="category-title">Deep Learning & Core ML</h3>
+              <h3 class="category-title">Fullstack Web Development</h3>
             </div>
-            <p class="category-desc">Model architecture development, loss function customization, & distributed
-              multi-GPU training.</p>
+            <p class="category-desc">End-to-end web application development, combining interactive user interfaces with
+              robust backend logic.</p>
             <div class="tech-pill-list">
-              <span class="tech-pill"><span class="dot-brand"></span>PyTorch</span>
-              <span class="tech-pill"><span class="dot-brand"></span>TensorFlow / Keras</span>
-              <span class="tech-pill"><span class="dot-brand"></span>JAX / Flax</span>
-              <span class="tech-pill"><span class="dot-brand"></span>Hugging Face Transformers</span>
-              <span class="tech-pill"><span class="dot-brand"></span>Scikit-Learn</span>
-              <span class="tech-pill"><span class="dot-brand"></span>CUDA / cuDNN</span>
+              <span class="tech-pill"><span class="dot-brand"></span>JavaScript</span>
+              <span class="tech-pill"><span class="dot-brand"></span>Python</span>
+              <span class="tech-pill"><span class="dot-brand"></span>HTML5 & CSS3</span>
             </div>
           </div>
 
-          <!-- Generative AI & LLM Systems -->
           <div class="skill-category-card">
             <div class="category-header">
-              <div class="category-icon-box">🤖</div>
-              <h3 class="category-title">GenAI & LLM Systems</h3>
+              <div class="category-icon-box">🛠️</div>
+              <h3 class="category-title">Tools</h3>
             </div>
-            <p class="category-desc">Agent orchestration, parameter-efficient fine-tuning (LoRA/QLoRA), RAG
-              architectures, & evaluation.</p>
+            <p class="category-desc">Tools & Development Workflow</p>
             <div class="tech-pill-list">
-              <span class="tech-pill"><span class="dot-brand"></span>LangChain / LangGraph</span>
-              <span class="tech-pill"><span class="dot-brand"></span>LlamaIndex</span>
-              <span class="tech-pill"><span class="dot-brand"></span>vLLM / TensorRT-LLM</span>
-              <span class="tech-pill"><span class="dot-brand"></span>PEFT / LoRA</span>
-              <span class="tech-pill"><span class="dot-brand"></span>DeepSpeed</span>
-              <span class="tech-pill"><span class="dot-brand"></span>RAGAS Evaluation</span>
-            </div>
-          </div>
-
-          <!-- MLOps & Production Systems -->
-          <div class="skill-category-card">
-            <div class="category-header">
-              <div class="category-icon-box">⚙️</div>
-              <h3 class="category-title">MLOps & Serving Infrastructure</h3>
-            </div>
-            <p class="category-desc">Zero-downtime serving, model registries, drift monitoring, containerization &
-              orchestration.</p>
-            <div class="tech-pill-list">
-              <span class="tech-pill"><span class="dot-brand"></span>Triton Inference Server</span>
-              <span class="tech-pill"><span class="dot-brand"></span>Docker & Kubernetes</span>
-              <span class="tech-pill"><span class="dot-brand"></span>MLflow / Weights & Biases</span>
-              <span class="tech-pill"><span class="dot-brand"></span>FastAPI / gRPC</span>
-              <span class="tech-pill"><span class="dot-brand"></span>ONNX Runtime</span>
-              <span class="tech-pill"><span class="dot-brand"></span>Prometheus & Grafana</span>
-            </div>
-          </div>
-
-          <!-- Vector Stores & Big Data -->
-          <div class="skill-category-card">
-            <div class="category-header">
-              <div class="category-icon-box">💾</div>
-              <h3 class="category-title">Vector Databases & Data Engineering</h3>
-            </div>
-            <p class="category-desc">High-dimensional similarity indexing, ANN search, distributed feature stores, &
-              streaming.</p>
-            <div class="tech-pill-list">
-              <span class="tech-pill"><span class="dot-brand"></span>Pinecone</span>
-              <span class="tech-pill"><span class="dot-brand"></span>Milvus / Qdrant</span>
-              <span class="tech-pill"><span class="dot-brand"></span>PostgreSQL (pgvector)</span>
-              <span class="tech-pill"><span class="dot-brand"></span>Polars & Pandas</span>
-              <span class="tech-pill"><span class="dot-brand"></span>Apache Spark</span>
-              <span class="tech-pill"><span class="dot-brand"></span>Redis Vector Search</span>
+              <span class="tech-pill"><span class="dot-brand"></span>Antigravity IDE</span>
+              <span class="tech-pill"><span class="dot-brand"></span>VS Code</span>
+              <span class="tech-pill"><span class="dot-brand"></span>Git & GitHub</span>
             </div>
           </div>
         </div>
@@ -671,13 +438,13 @@
               <h4 class="timeline-company">Universitas Pakuan</h4>
               <p class="timeline-desc">
                 Mempelajari dan mendalami konsep-konsep dasar kecerdasan buatan dan robotika, serta menerapkannya dalam
-                proyek-proyek yang menantang.
+                project-project yang menantang.
               </p>
               <div class="timeline-tags">
                 <span>Python</span>
                 <span>JavaScript</span>
-                <span>Matematika</span>
-                <span>Fisika</span>
+                <span>HTML</span>
+                <span>CSS</span>
               </div>
             </div>
           </div>
@@ -692,7 +459,7 @@
               <h3 class="timeline-role">Perancang Website Portofolio</h3>
               <h4 class="timeline-company">Project Pribadi</h4>
               <p class="timeline-desc">
-                Merancang dan mengembangkan website portofolio untuk menampilkan proyek-proyek yang telah dikerjakan,
+                Merancang dan mengembangkan website portofolio untuk menampilkan project-project yang telah dikerjakan,
                 serta menyediakan informasi mengenai diri sendiri dan keahlian yang dimiliki.
               </p>
               <div class="timeline-tags">
@@ -713,7 +480,7 @@
               <h3 class="timeline-role">In Progress</h3>
               <h4 class="timeline-company">Coming Soon</h4>
               <p class="timeline-desc">
-                Slot ini disiapkan untuk proyek machine learning atau robotika pertama yang akan didokumentasikan di
+                Slot ini disiapkan untuk project machine learning atau robotika pertama yang akan didokumentasikan di
                 sini.
               </p>
               <div class="timeline-tags">
@@ -802,7 +569,7 @@
               <label for="contact-subject">Topik Pembicaraan</label>
               <select id="contact-subject" name="subject">
                 <option value="recruitment">Peluang Kerja / Full-time Role</option>
-                <option value="project">Konsultasi / Proyek AI</option>
+                <option value="project">Konsultasi / Project AI</option>
                 <option value="research">Kolaborasi Riset & Paper</option>
                 <option value="other">Pertanyaan Lainnya</option>
               </select>
