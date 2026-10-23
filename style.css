@@ -466,10 +466,6 @@ code, kbd, samp, pre {
   transform: translateY(-2px);
 }
 
-.hf-icon {
-  font-size: 1.1rem;
-}
-
 /* Stats Strip */
 .stats-strip {
   display: grid;
@@ -1020,6 +1016,8 @@ code, kbd, samp, pre {
   box-shadow: var(--shadow-xs);
   display: flex;
   flex-direction: column;
+  max-width: 580px;
+  width: 100%;
   transition: transform var(--trans-fast), box-shadow var(--trans-fast), border-color var(--trans-fast);
 }
 
